@@ -1,20 +1,32 @@
 body {
   background-color: #497174;
+  text-align: center;
+  max-width: 600px;
 }
-
+p {
+  font-size: 20px;
+}
 h1 {
   text-align: center;
   color: #eff5f5;
+  height: 67px;
+  margin-top: 30px;
 }
 
 a {
   color: #eff5f5;
-  display: block;
-  margin: 0 auto;
+  margin-top: 90px;
+  display: d-flex;
+  justify-content: space-evenly;
+  padding: 20px;
 }
-img {
-  width: 600px;
-  height: auto;
+
+.croissant-picture {
   display: block;
-  margin: 0 auto;
+  margin: 30px auto;
+  max-width: 100%;
+  padding: 20px;
+  border-radius: 60px;
+  overflow-clip-margin: content-box;
+  overflow: clip;
 }

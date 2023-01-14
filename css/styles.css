@@ -1,7 +1,7 @@
 body {
   background-color: #497174;
   text-align: center;
-  max-width: 600px;
+  max-width: 100%;
 }
 p {
   font-size: 20px;
@@ -9,8 +9,9 @@ p {
 h1 {
   text-align: center;
   color: #eff5f5;
-  height: 67px;
+  
   margin-top: 30px;
+  display: block;
 }
 
 a {
@@ -25,8 +26,15 @@ a {
   display: block;
   margin: 30px auto;
   max-width: 100%;
-  padding: 20px;
-  border-radius: 60px;
-  overflow-clip-margin: content-box;
-  overflow: clip;
+  padding: 15px;
+  border-radius: 30px;
+  height: auto;
+}
+
+@media (min-width: 1200px) {
+  img {
+    width: 900px;
+    margin: 30px auto;
+
+  }
 }

@@ -8,5 +8,16 @@ h1 {
 }
 
 a {
-  color: #eff5f5;
+color: #eff5f5;
+display: d-flex;
+justify-content: space-evenly;
+text-align: center;
+  
+
+}
+img {
+  width: 800px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
